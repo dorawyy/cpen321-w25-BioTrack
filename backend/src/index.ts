@@ -18,4 +18,3 @@ connectDB().catch((error: unknown) => {
 server.listen(PORT, () => {
   logger.info('🚀 Server running on port', String(PORT));
 });
-
